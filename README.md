@@ -69,6 +69,26 @@ Creation and exploration of RESTful principles on a http API written in kotlin.
   3. Last-Modified -> Set Date/Time when the resource was last changed
   4. ETag -> Unique identifier associated with a response
  
+### 5. Layered Architecture
+- Layers of software like a load balance between the client and the server is fundamental for scaling
+- So the client would be connected to a API gateway, that directs the calls to a load balancer, making the client only dependent to the gateway
+- Layers make easier to manage the architecture of your solution
+
+### 6. Code on Demand (Optional Constraint)
+- Server can extend the functionality of client by sending Code
+- Similar to the WWW when the browser GETs the HTML, JS and CSS file to process, APIs may respond with code to be runned on client
+
+### HATEOAS
+- Similar to Code on Demand, the response of a REST API could contain links to carry out actions to be done on client
+- Example:
+```
+Our Courses API could answer to a GET request:
+GET /courses/123
+In the Response could be:
+- The course details
+- Link: add a review
+- Link: Enroll the course
+```
 ## Leonard Richardson Maturity Model
 
 
