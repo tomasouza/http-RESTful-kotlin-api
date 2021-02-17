@@ -10,7 +10,7 @@ Creation and exploration of RESTful principles on a http API written in kotlin.
 5. Layered
 6. Code on Demand
 
-### Client-Server
+### 1. Client-Server
 - The Client-Server shout NOT run in same process
 - Separation of concerns
   * The Server must concern with Security, Persistence, Scaling
@@ -18,7 +18,7 @@ Creation and exploration of RESTful principles on a http API written in kotlin.
   * We can manage these specific concerns separetely
   * As long they mantain an uniform Integace with each other they can evolve separetely as well
   
-### Uniform Interface
+### 2. Uniform Interface
 - Client and Server share a common Technical Interface (Defines the contract between client & server)
   1. Individual Resources are identified in the Request (URI/URL)
       * HTTP/1.1 GET http://api.education.com.br/courses/369 *
@@ -33,6 +33,12 @@ Creation and exploration of RESTful principles on a http API written in kotlin.
         }
       ```
       * Client uses the Representation to manipulate the Resource *
+  3. Self decriptive messages - metadata
+      * The client and server exchanges metadata like Content-type, Http Status Code, Host, Accept: application/json headers * 
+  4. Hypermedia
+      * The Server in response of a request may send actions (links of discovery) *
+      * HATEOAS = Hypermedia As The Engine Of Application State *
+      
 ## Leonard Richardson Maturity Model
 
 
