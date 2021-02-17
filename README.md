@@ -91,7 +91,7 @@ In the Response could be:
 ```
 [Paypal HATEOAS Links Example](https://developer.paypal.com/docs/api/reference/api-responses/#hateoas-links)
 ## Leonard Richardson Maturity Model
-
+[Leonard Richardson Maturity Model described by Martin Fowler](https://martinfowler.com/articles/richardsonMaturityModel.html)
 
 
 
