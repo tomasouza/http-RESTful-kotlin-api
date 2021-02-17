@@ -89,6 +89,7 @@ In the Response could be:
 - Link: add a review
 - Link: Enroll the course
 ```
+[Paypal HATEOAS Links Example](https://developer.paypal.com/docs/api/reference/api-responses/#hateoas-links)
 ## Leonard Richardson Maturity Model
 
 
