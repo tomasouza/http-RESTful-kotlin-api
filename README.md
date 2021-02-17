@@ -22,8 +22,8 @@ Creation and exploration of RESTful principles on a http API written in kotlin.
 ### 2. Uniform Interface
 - Client and Server share a common Technical Interface (Defines the contract between client & server)
   1. Individual Resources are identified in the Request (URI/URL)
-      * HTTP/1.1 GET http://api.education.com.br/courses/369 *
-      * HTTP/1.1 GET http://api.education.com.br/courses/1242 *
+      *HTTP/1.1 GET http://api.education.com.br/courses/369*
+      *HTTP/1.1 GET http://api.education.com.br/courses/1242*
   2. Representation of the Resources
       * Client receives the Representation of the Resource *
       ```javascript
