@@ -91,6 +91,19 @@ In the Response could be:
 ```
 [Paypal HATEOAS Links Example](https://developer.paypal.com/docs/api/reference/api-responses/#hateoas-links)
 ## Leonard Richardson Maturity Model
+- Level 0 - RPC
+  1. The Swamp of Pox (Plain Old Xml)
+  2. Mostly HTTP GET and POST verbs
+- Level 1 - Resources + URI
+  1. URI represents resources of real world
+  2. Methods are not used well yet
+- Level 2 - Resources + URI + HTTP Verbs
+  1. Resources and methods and URL used in the pattern
+  2. Hypermedia Control not applied
+- Level 3 - Hypermedia Control
+  1. Full compliance
+  2. Resources with hypermedia in communication
+
 [Leonard Richardson Maturity Model described by Martin Fowler](https://martinfowler.com/articles/richardsonMaturityModel.html)
 
 
